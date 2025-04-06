@@ -33,7 +33,7 @@ with open("Pagina_0.txt", "w", encoding="utf-8") as f:
     f.write(texto_corrigido0)
 print("Texto corrigido:", texto_corrigido0)
 
-# página1
+# página 1
 imagem1 = Image.open("pagina_1.jpg")
 texto1 = pytesseract.image_to_string(imagem1, lang='por')
 print(texto1)
